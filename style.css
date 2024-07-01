@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.navigation{
+    width: 100%;
+    height: 100px;
+    background-color: #003049;
+    display: flex;
+}
+
+.first{
+    width: 12%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.first h1 span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.second{
+    width: 15%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Location{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Location i{
+    font-weight: 400;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content p{
+    font-weight: 400;
+}
+
+.content h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.third{
+    width: 37%;
+    height: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.third input{
+    width: 90%;
+    padding: .6vw;
+    font-size: 1vwx;
+    border-radius: 5px;
+}
+
+.third input ::placeholder{
+    font-size: 93vw;
+}
+
+.forth{
+    width: 7%;
+    height: 100%;
+    /* background-color: lightgoldenrodyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth h3{
+    font-weight: 600;
+}
+
+.forth i{
+    color: grey;
+}
+
+.fifth{
+    width: 15%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fifth p{
+    font-weight: 600;
+}
+
+.fifth h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sixth{
+    width: 7%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sixth p{
+    font-weight: 500;
+}
+
+.sixth h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.seventh{
+    width: 7%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seventh h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.color{
+    color: white;
+}
+
